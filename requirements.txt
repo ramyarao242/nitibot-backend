@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+jinja2
+aiofiles
+python-multipart
+beautifulsoup4
+lxml
+openai
