@@ -2,166 +2,276 @@
   {
     "chapter": 6,
     "verse": 1,
-    "sanskrit": "दुष्टं बन्धुं परित्यज्य प्राज्ञो धर्ममेकं चरेत् ।\nदुष्टं ग्रामं परित्यज्य देवं तीर्थं च सेवयेत् ॥",
-    "translation": "The wise should abandon an evil relative and follow dharma. One should leave a wicked village and seek holy places.",
+    "sanskrit": "विद्वान्सर्वत्र पूज्यते न च मूर्खः कथंचन ।\nकस्त्रैलोक्येऽपि मूर्खस्य पूजां समर्थो वदाम्यहम् ॥",
+    "translation": "The wise are honored everywhere, but never the foolish. Who in the three worlds can honor a fool?",
     "tags": [
       "wisdom",
-      "detachment",
-      "dharma"
+      "honor",
+      "foolishness"
     ]
   },
   {
     "chapter": 6,
     "verse": 2,
-    "sanskrit": "त्यज दुर्जनसंसर्गं भज साधुसमागमम् ।\nकुरु पुण्यमहोरात्रं स्मर नित्यमनित्यताम् ॥",
-    "translation": "Avoid wicked company, seek the noble, do good always, and remember that everything is temporary.",
+    "sanskrit": "अविद्वानेव शकुनिः शास्त्रज्ञोऽपि न दीप्यते ।\nतस्मात्सर्वेषु लोकेषु विद्यया योजयेद्बुधः ॥",
+    "translation": "Even an unlearned parrot cannot shine, while a knower of scriptures glows. Therefore, always pursue learning.",
     "tags": [
-      "virtue",
-      "impermanence",
-      "ethics"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 3,
-    "sanskrit": "वृत्तं यत्नेन संरक्षेत्प्रसिद्धं व्यसनैः सह ।\nअनावृष्ट्यां तु यस्येह वित्तं स नः स जीवति ॥",
-    "translation": "One should protect one’s reputation diligently. He who survives a drought with wealth intact truly lives.",
-    "tags": [
-      "reputation",
-      "prudence",
-      "survival"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 4,
-    "sanskrit": "द्विजो न विद्यया हीनो नोन्नतः कुलजन्मना ।\nहृतं चेद्विजकर्मण्यं शूद्रतां याति स द्विजः ॥",
-    "translation": "A Brahmin without knowledge or proper conduct is not superior due to birth. Without his duties, he becomes a Shudra.",
-    "tags": [
-      "varna",
-      "duty",
-      "knowledge"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 5,
-    "sanskrit": "मातृवत्परदारेषु परद्रव्येषु लोष्ठवत् ।\nआत्मवत्सर्वभूतेषु यः पश्यति स पण्डितः ॥",
-    "translation": "He who sees other women as mothers, others' wealth as dust, and all beings as himself — he is truly wise.",
-    "tags": [
-      "ethics",
-      "compassion",
-      "wisdom"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 6,
-    "sanskrit": "न विना प्रयत्नेन सिद्धिर्नास्ति कस्यचित्क्वचित् ।\nन सुप्तस्य सिंहस्य प्रविशन्ति मुखे मृगाः ॥",
-    "translation": "No goal is achieved without effort. Even deer do not walk into the mouth of a sleeping lion.",
-    "tags": [
-      "effort",
-      "action",
-      "determination"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 7,
-    "sanskrit": "नास्त्यविद्यसमं पापं नास्ति शीलसमं सुखम् ।\nनास्ति रागसमं दुःखं नास्ति त्यागसमं सुखम् ॥",
-    "translation": "There is no sin like ignorance, no happiness like good character, no sorrow like attachment, and no joy like renunciation.",
-    "tags": [
-      "wisdom",
-      "renunciation",
-      "character"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 8,
-    "sanskrit": "शत्रोः किं कुर्याच्छक्तः कः प्रियं कुरुते स्वयम् ।\nस्वयमेव हि तीव्रं च न हि रक्षति कश्चन ॥",
-    "translation": "What can an enemy do if one is strong? Who truly acts for others’ benefit? Only self-effort protects — none else.",
-    "tags": [
-      "self-effort",
-      "strength",
-      "independence"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 9,
-    "sanskrit": "पुत्रेण पुत्रो जायेत धनैर्धनमनुत्तमम् ।\nविद्यया चाऽपि विद्या सन्ततिः सन्ततिः सदा ॥",
-    "translation": "A worthy son is born of a worthy father; wealth grows with wealth; knowledge with knowledge — growth is continuity.",
-    "tags": [
-      "lineage",
-      "growth",
-      "knowledge"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 10,
-    "sanskrit": "न हि दरिद्रता पापं न च स्वर्गः सुखावहः ।\nन च स्त्रीणां प्रियं युक्तं न च सन्तो विवर्जनीयाः ॥",
-    "translation": "Poverty is not a sin, nor is heaven always blissful. Women do not always speak wisely, yet the wise should not be shunned.",
-    "tags": [
-      "poverty",
-      "wisdom",
-      "perspective"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 11,
-    "sanskrit": "अन्नं हि पानं वस्त्राणि सर्वं वस्तूनि यान्ति यः ।\nन स जानाति धर्मार्थं स पशुः पुरुषाकृतिः ॥",
-    "translation": "He who only eats, drinks, and wears clothes without understanding dharma or purpose is an animal in human form.",
-    "tags": [
-      "purpose",
-      "dharma",
-      "ignorance"
-    ]
-  },
-  {
-    "chapter": 6,
-    "verse": 12,
-    "sanskrit": "यस्य नास्ति स्वयं प्रज्ञा शास्त्रं तस्य करोति किम् ।\nलोचनाभ्यां विहीनस्य दर्पणः किं करिष्यति ॥",
-    "translation": "What can scriptures do for one without intelligence? A mirror is useless to a blind man.",
-    "tags": [
-      "self-awareness",
+      "knowledge",
       "learning",
       "wisdom"
     ]
   },
   {
     "chapter": 6,
-    "verse": 13,
-    "sanskrit": "सर्पः क्रोधवशं याति सिंहः शौर्यं प्रयच्छति ।\nवृको हिंसास्वभावश्च तस्मात्सन्तं भजेत्सदा ॥",
-    "translation": "The serpent yields to anger, the lion to bravery, the wolf to cruelty — hence, seek the company of the good.",
+    "verse": 3,
+    "sanskrit": "विद्यां चाविद्यां च यस्तद्वेदोभयंसह ।\nअविद्यया मृत्युं तीर्त्वा विद्ययाऽमृतमश्नुते ॥",
+    "translation": "He who knows both knowledge and ignorance crosses death through ignorance and attains immortality through knowledge.",
     "tags": [
-      "anger",
-      "company",
+      "knowledge",
+      "liberation",
+      "balance"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 4,
+    "sanskrit": "शरीरमाद्यं खलु धर्मसाधनम् ।",
+    "translation": "The body is indeed the primary tool for practicing dharma.",
+    "tags": [
+      "dharma",
+      "body",
+      "purpose"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 5,
+    "sanskrit": "यस्य नास्ति स्वयं प्रज्ञा मन्त्रं तस्य करोति किम् ।\nलोचनाभ्यां विहीनस्य दर्पणः किं करिष्यति ॥",
+    "translation": "What can advice do for one without wisdom? A mirror is useless to the blind.",
+    "tags": [
+      "wisdom",
+      "self-awareness",
+      "uselessness"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 6,
+    "sanskrit": "अज्ञः सुखमाराध्यः सुखतरमाराध्यते विशेषज्ञः ।\nज्ञानलवदुर्विदग्धं ब्रह्मापि नरं न रञ्जयति ॥",
+    "translation": "The ignorant are easily pleased, the wise even more so. But one who’s proud of little knowledge pleases no one—not even Brahma.",
+    "tags": [
+      "knowledge",
+      "ego",
+      "humility"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 7,
+    "sanskrit": "नृशंसानां पिशुनानां नीचानां नास्ति सौरतम् ।\nस्नेहो विद्वज्जने नित्यं विद्यया चाभिवर्धते ॥",
+    "translation": "Cruel, slanderous, and low people know no love. True affection grows only among the learned through knowledge.",
+    "tags": [
+      "virtue",
+      "affection",
       "wisdom"
     ]
   },
   {
     "chapter": 6,
-    "verse": 14,
-    "sanskrit": "गुणा एव किलान्येषां न जातिर्न च सम्पदः ।\nगुणहीनं हि लज्जन्ते नृपं भृत्याः किमु स्वजाः ॥",
-    "translation": "Only virtues matter — not birth or wealth. Even servants feel ashamed of a king who lacks merit.",
+    "verse": 8,
+    "sanskrit": "वर्षे वर्षेऽश्वमेधेन यो यजेत शतं समाः ।\nअकल्मषं स्त्रियां चैव पितृभक्तिं च पूजयेत् ॥",
+    "translation": "Even a hundred horse sacrifices yearly don't compare to honoring a pure woman and showing devotion to one's parents.",
     "tags": [
-      "virtue",
       "respect",
-      "status"
+      "parents",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 9,
+    "sanskrit": "शतेषु जायते शूरः सहस्रेषु च पण्डितः ।\nवक्ता दशसहस्रेषु दाता भवति वा न वा ॥",
+    "translation": "Among hundreds, one is brave; among thousands, a scholar; among ten thousand, a speaker; and a true giver may not even exist.",
+    "tags": [
+      "rarity",
+      "greatness",
+      "charity"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 10,
+    "sanskrit": "द्रव्यहीनः सतां मध्ये निर्धनः शूरसन्निभः ।\nकिं तेन धनेन यत्र न धर्मः ॥",
+    "translation": "Among the noble, even the poor shine like the brave. What use is wealth without dharma?",
+    "tags": [
+      "dharma",
+      "wealth",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 11,
+    "sanskrit": "विद्यया विन्दतेऽमृतं ज्ञानं मोक्षस्य कारणम् ।\nवृथा जीवति स विद्याहीनः पशुभिः समः ॥",
+    "translation": "Through knowledge, one attains immortality—knowledge is the cause of liberation. One without it lives in vain, like an animal.",
+    "tags": [
+      "knowledge",
+      "liberation",
+      "purpose"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 12,
+    "sanskrit": "विद्यां चाविद्यां च यस्तद्वेदोभयं सह ।\nअविद्यया मृत्युं तीर्त्वा विद्ययाऽमृतमश्नुते ॥",
+    "translation": "He who understands both knowledge and ignorance crosses death through the latter and gains immortality through the former.",
+    "tags": [
+      "wisdom",
+      "balance",
+      "liberation"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 13,
+    "sanskrit": "प्रारम्भे कर्मणा सिध्यति कार्यं बुद्धिपूर्वकम् ।\nनहि सर्वं तथैव स्यात्कालो हि परमं बलम् ॥",
+    "translation": "A task succeeds by thoughtful beginning and effort, but time has the final say in all outcomes.",
+    "tags": [
+      "action",
+      "timing",
+      "planning"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 14,
+    "sanskrit": "विपत्ति काले विनयं यस्य चित्ते स्थिता सदा ।\nविनीतस्य गुणः पापं न गच्छेत्कदाचन ॥",
+    "translation": "In times of crisis, he who remains humble is truly virtuous. Such humility prevents sin from arising.",
+    "tags": [
+      "humility",
+      "crisis",
+      "virtue"
     ]
   },
   {
     "chapter": 6,
     "verse": 15,
-    "sanskrit": "शरीरमाद्यं खलु धर्मसाधनम् ।\nप्राणाः सदा दुःखदाः — दुःखं जगति नित्यशः ॥",
-    "translation": "The body is the first tool of dharma. Life is filled with sorrow — suffering is ever-present in the world.",
+    "sanskrit": "धर्मेणैव हि सम्पत्तिः धर्मेणैव च सौख्यतः ।\nधर्मेणैव भवन्त्येव यशः पुण्यं च कीर्तिमत् ॥",
+    "translation": "All prosperity, happiness, fame, and virtue arise from dharma.",
     "tags": [
-      "body",
       "dharma",
-      "suffering"
+      "success",
+      "reputation"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 16,
+    "sanskrit": "एष धर्मस्य सन्धानं यः स्वधर्मे स्थितः सदा ।\nस पण्डिततमो ज्ञेयो यः स्वधर्मे रतः सदा ॥",
+    "translation": "He who remains firm in his own dharma is the wisest of all and truly follows the path of righteousness.",
+    "tags": [
+      "dharma",
+      "steadfastness",
+      "wisdom"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 17,
+    "sanskrit": "नैतिकं यः समारम्भे कर्तव्यं न विहाय सः ।\nविचिकित्सां जहात्येव कार्यसिद्धिर्न संशयः ॥",
+    "translation": "He who begins with integrity and discards doubt achieves success without a doubt.",
+    "tags": [
+      "integrity",
+      "success",
+      "determination"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 18,
+    "sanskrit": "न यत्र धर्मो न च सत्संगतिः सदा ।\nन च श्रद्धा न च गुणाः स देशो वर्जनीयकः ॥",
+    "translation": "A place lacking dharma, noble company, faith, and virtue should be abandoned.",
+    "tags": [
+      "dharma",
+      "association",
+      "faith"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 19,
+    "sanskrit": "आलस्यमुल्लसति यत्र लोभः सञ्चरति सदा ।\nकृष्णपक्ष इव चित्तं स नश्यति न संशयः ॥",
+    "translation": "Where laziness reigns and greed moves freely, the mind darkens like the waning moon—and surely declines.",
+    "tags": [
+      "laziness",
+      "greed",
+      "mind"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 20,
+    "sanskrit": "विद्येति विश्रुतं नाम यः स्वाध्यायनतत्परः ।\nतं वन्दे हृदये नित्यं स धर्मः परमं गतिः ॥",
+    "translation": "He who is devoted to self-study and is famed for knowledge should be honored in the heart always. That is dharma and the supreme path.",
+    "tags": [
+      "study",
+      "respect",
+      "dharma"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 21,
+    "sanskrit": "एवं नीतिसारं पुण्यं यः पठेत्स श्रद्धया सदा ।\nस प्राप्नोति परां सिद्धिं पुण्यं यशस्यमीप्सितम् ॥",
+    "translation": "He who faithfully reads this sacred Neeti attains supreme success, virtue, and desired honor.",
+    "tags": [
+      "virtue",
+      "recitation",
+      "success"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 22,
+    "sanskrit": "धर्मः सत्यं क्षमा शान्तिस्त्यागः शुचिरनुग्रहः ।\nधृतीः स्मृतिर्धृता विद्या धर्मलक्षणमुच्यते ॥",
+    "translation": "Truth, forgiveness, peace, renunciation, purity, compassion, patience, memory, and knowledge—these are hallmarks of dharma.",
+    "tags": [
+      "dharma",
+      "virtues",
+      "qualities"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 23,
+    "sanskrit": "स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ।\nधर्मादेव हि जीवामः न धर्मं परित्यजेत् ॥",
+    "translation": "Better to die in one’s own dharma than follow another’s—life is sustained by dharma, never forsake it.",
+    "tags": [
+      "dharma",
+      "steadfastness",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 24,
+    "sanskrit": "धर्मेणैव हि राज्यं स्यात्सर्वधर्मनिवेशनम् ।\nराज्ञा धर्मं समारब्धं पालयेदिति शासितम् ॥",
+    "translation": "A kingdom must be rooted in dharma. The king must initiate and preserve righteousness in all its forms.",
+    "tags": [
+      "kingdom",
+      "dharma",
+      "rule"
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse": 25,
+    "sanskrit": "एते नीतिसारस्य श्लोकाः पुण्यविवर्धनाः ।\nपठन्ति ये नराः शुद्धा ते गच्छन्ति परां गतिम् ॥",
+    "translation": "These verses of Neeti increase virtue. Those pure-hearted who recite them attain the supreme path.",
+    "tags": [
+      "neeti",
+      "recitation",
+      "liberation"
     ]
   }
 ]
