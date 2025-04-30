@@ -44,5 +44,126 @@
       "wisdom",
       "behavior"
     ]
+  },
+  {
+    "chapter": 1,
+    "verse": 5,
+    "sanskrit": "को हि धर्मार्थयुक्तानां त्यागिनां साधुसङ्गिनाम् ।\nकः समयमनुप्राप्य न सिध्यति करोत्यपि ॥",
+    "translation": "Who does not succeed, if at the right time, one practices righteousness, detachment, and good association?",
+    "tags": [
+      "timing",
+      "dharma",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 6,
+    "sanskrit": "संपत्तौ च विपत्तौ च महतां व्यवहारिता ।\nउत्सवे व्यसने चैव ज्ञायन्ते सत्पुरुषाः ॥",
+    "translation": "In prosperity and adversity, the behavior of great people is seen. True character is revealed during celebrations and crises.",
+    "tags": [
+      "character",
+      "virtue",
+      "crisis"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 7,
+    "sanskrit": "माता शत्रुः पिता वैरी येन बालो न पाठितः ।\nन शोभते सभा मध्ये हंसमध्ये बको यथा ॥",
+    "translation": "That child whose parents do not educate him becomes their enemy. He is like a crane among swans in an assembly.",
+    "tags": [
+      "education",
+      "parenting",
+      "ignorance"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 8,
+    "sanskrit": "येषां न विद्या न तपो न दानं ज्ञानं न शीलं न गुणो न धर्मः ।\nते मर्त्यलोके भुवि भारभूता मनुष्यरूपेण मृगाः चरन्ति ॥",
+    "translation": "Those who have neither learning nor austerity, nor charity, nor knowledge, nor character, nor virtue, nor dharma — they are a burden to the earth, animals in human form.",
+    "tags": [
+      "virtue",
+      "ignorance",
+      "character"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 9,
+    "sanskrit": "एकेनapi सुपुत्रेण विद्यायुक्तेन संस्कृतः ।\nवशं वर्ति जगत्सर्वं यत्र पूज्यं धनं कुलम् ॥",
+    "translation": "A single virtuous and learned son brings fame and respect to the entire family. He is more valuable than wealth or lineage.",
+    "tags": [
+      "family",
+      "virtue",
+      "education"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 10,
+    "sanskrit": "न चौरहार्यं न च राजहार्यं न भ्रातृभाज्यं न च भारकारी ।\nव्यये कृते वर्धते नित्यं विद्याधनं सर्वधनप्रधानम् ॥",
+    "translation": "Knowledge is the greatest wealth: it cannot be stolen by thieves, seized by kings, divided among brothers, or burdensome to carry. It increases when shared.",
+    "tags": [
+      "knowledge",
+      "wealth",
+      "sharing"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 11,
+    "sanskrit": "सुपुत्रो जायते तस्य कुले भार्या पतिव्रता ।\nसंपन्नः स तु नारीणां यत्र भग्नं कुलं सदा ॥",
+    "translation": "He is truly blessed who has a virtuous wife and a noble son, for in such a home, the family is always elevated.",
+    "tags": [
+      "family",
+      "virtue",
+      "women"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 12,
+    "sanskrit": "दुर्जनः परिहर्तव्यो विद्ययाऽलंकृतोऽपि सन् ।\nमणिना भूषितः सर्पः किमसौ न भयंकरः ॥",
+    "translation": "Even if an evil person is adorned with learning, he should be avoided. Is a serpent less dangerous because it is jeweled?",
+    "tags": [
+      "ethics",
+      "danger",
+      "bad company"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 13,
+    "sanskrit": "शक्यं जलप्लवेनैव दुस्तरं सागरं यथा ।\nन तु विद्याविहीनस्य न तरणं न गमनं ॥",
+    "translation": "One may cross a great ocean by a raft, but the ignorant cannot cross even a small stream of life without knowledge.",
+    "tags": [
+      "knowledge",
+      "ignorance",
+      "metaphor"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 14,
+    "sanskrit": "गुणा यदि भवन्त्येव दोषाः किं बहु भाषितम् ।\nगन्धेन विवरं यान्ति फलान्यपि च काकतः ॥",
+    "translation": "When one possesses virtues, flaws become insignificant. Even crows seek fruits through fragrance.",
+    "tags": [
+      "virtue",
+      "perception",
+      "symbolism"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 15,
+    "sanskrit": "निन्दन्तु नीतिनिपुणा यदि वा स्तुवन्तु लक्ष्मीः समाविशतु गच्छतु वा यथेष्टम् ।\nअद्यैव वा मरणमस्तु युगान्तरे वा न्यायात्पथः प्रविचलन्ति पदं न धीराः ॥",
+    "translation": "Let critics criticize or praise, let wealth come or go, let death come today or after ages — the wise never stray from the path of righteousness.",
+    "tags": [
+      "dharma",
+      "steadfastness",
+      "wisdom"
+    ]
   }
 ]
