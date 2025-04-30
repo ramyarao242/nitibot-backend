@@ -2,166 +2,276 @@
   {
     "chapter": 7,
     "verse": 1,
-    "sanskrit": "अप्राप्ते च विभौ यस्य नोन्मत्तः स प्रभुर्भवेत् ।\nप्राप्ते तु संकते भीते नरः स्यान्निखिलं त्यजेत् ॥",
-    "translation": "A man who is not intoxicated by wealth before acquiring it, may become its master; but in adversity, fear can make him abandon everything.",
+    "sanskrit": "मूर्खः परिहर्तव्यो विद्ययाऽलङ्कृतोऽपि सन् । मणिना भूषितः सर्पः किमसौ न भयंकरः ॥",
+    "translation": "Even a foolish person adorned with knowledge should be avoided—just as a bejeweled serpent is still dangerous.",
     "tags": [
-      "wealth",
-      "adversity",
-      "self-control"
+      "wisdom",
+      "danger",
+      "discernment"
     ]
   },
   {
     "chapter": 7,
     "verse": 2,
-    "sanskrit": "शास्त्रं न जानाति यो मूर्खः श्रुत्वाऽपि बहु भाषते ।\nअन्धो दीपं समाश्रित्य किं प्रकाशयति स्वयम् ॥",
-    "translation": "A fool who doesn't understand scripture, yet talks a lot, is like a blind man near a lamp — it doesn’t illuminate him.",
+    "sanskrit": "पुत्रं मित्रं धनं भार्यां देहं शत्रुं च पञ्चमम् । विवेकपूर्वकं त्याज्यं धर्मार्थं यो भवेद्विपः ॥",
+    "translation": "A wise man may abandon son, friend, wealth, wife, and even his own body if it stands in the way of dharma or purpose.",
     "tags": [
-      "wisdom",
-      "ignorance",
-      "speech"
+      "dharma",
+      "detachment",
+      "sacrifice"
     ]
   },
   {
     "chapter": 7,
     "verse": 3,
-    "sanskrit": "स्वल्पमप्युपकारं यो विस्मरत्याशु मानवः ।\nस पापी नरकं याति कालपाशवशं गतः ॥",
-    "translation": "He who quickly forgets even a small favor falls into sin and is bound by the ropes of time (karma).",
+    "sanskrit": "येषां न विद्या न तपो न दानं ज्ञानं न शीलं न गुणो न धर्मः । ते मर्त्यलोके भुविभारभूता मनुष्यरूपेण मृगाः चरन्ति ॥",
+    "translation": "Those who have no knowledge, austerity, charity, virtue, or righteousness are burdens on the earth—beasts in human form.",
     "tags": [
-      "gratitude",
-      "karma",
-      "ethics"
+      "virtue",
+      "ignorance",
+      "humanity"
     ]
   },
   {
     "chapter": 7,
     "verse": 4,
-    "sanskrit": "अत्यन्तमपि पाण्डित्यं ममत्वं च विशेषतः ।\nप्रायः कुर्यात्पराभवम् आत्मनो नास्ति संशयः ॥",
-    "translation": "Excessive scholarship and attachment, especially egoism, usually lead to one's downfall — no doubt about it.",
+    "sanskrit": "स्वभावो नोपदेशेन शक्यते कर्तुमन्यथा । सुतप्तमपि पाणीनं शीतत्वं न गच्छति ॥",
+    "translation": "One's nature cannot be changed by instruction—just as hot water does not turn cold by boiling more.",
     "tags": [
-      "ego",
-      "wisdom",
-      "attachment"
+      "nature",
+      "instruction",
+      "wisdom"
     ]
   },
   {
     "chapter": 7,
     "verse": 5,
-    "sanskrit": "यस्य नास्ति स्वयं प्रज्ञा मन्त्रं तस्य करोति किम् ।\nलोचनाभ्यां विहीनस्य दर्पणः किं करिष्यति ॥",
-    "translation": "What use is advice to one who has no intelligence? A mirror does nothing for the blind.",
+    "sanskrit": "अर्थेन मित्रं भवतिार्थेन बन्धुरर्थेन गच्छति पारत्र रामः । अर्थे स्थितो वै पुरुषः स लोके नान्यः कश्चिद्धनवतां प्रियः स्यात् ॥",
+    "translation": "Wealth makes friends, binds families, and even influences the afterlife. A wealthy man is beloved by all—none else is.",
     "tags": [
-      "wisdom",
-      "intellect",
-      "self-awareness"
+      "wealth",
+      "relationships",
+      "reality"
     ]
   },
   {
     "chapter": 7,
     "verse": 6,
-    "sanskrit": "दारिद्र्येण हता विद्या नीचैर्गमिता मतिः ।\nअल्पत्वेन हता लक्ष्मीः पापेन हतमानवाः ॥",
-    "translation": "Poverty destroys knowledge, low company ruins intellect, weakness ruins wealth, and sin destroys a man.",
+    "sanskrit": "सर्वेषां अपि शास्त्राणां गुह्यं ब्रूते सनातनम् । पारमार्थिकमर्थं च न श्रुतं केनचिद्भवेत् ॥",
+    "translation": "All scriptures ultimately convey one eternal truth—but the highest meaning is not heard by all.",
     "tags": [
-      "poverty",
-      "company",
-      "sin"
+      "scripture",
+      "truth",
+      "esoteric"
     ]
   },
   {
     "chapter": 7,
     "verse": 7,
-    "sanskrit": "कोपेन नाशमाप्नोति कोपेन हि गुणक्षयः ।\nकोपेन ज्ञानहानिः स्याद्कोपः सर्वं विनाशयेत् ॥",
-    "translation": "Anger leads to destruction — of qualities, wisdom, and peace. Anger ruins everything.",
+    "sanskrit": "निश्चलं पञ्चभूतानि स्थावरं सगणं जगत् । चलन्ति त्रिणि चित्तानि पुरुषो वाक् च पञ्चमी ॥",
+    "translation": "The five elements are steady, the world is fixed with its groups. Only three move: mind, speech, and man.",
     "tags": [
-      "anger",
-      "destruction",
-      "self-control"
+      "elements",
+      "movement",
+      "mind"
     ]
   },
   {
     "chapter": 7,
     "verse": 8,
-    "sanskrit": "विद्या विवादाय धनं मदाय शक्तिः परेषां परिपीडनाय ।\nखलस्य साधोर्विपरीतमेतज्ज्ञानाय दानाय च रक्षणाय ॥",
-    "translation": "For the wicked, knowledge is for debate, wealth for pride, and power for oppressing others. For the noble, it's for wisdom, charity, and protection.",
+    "sanskrit": "दुर्जनः प्रियवादी च नैव विश्वसनीयकः । मधु तिष्ठति जिह्वाग्रे हृदयं विषमायुतम् ॥",
+    "translation": "A wicked man who speaks sweetly cannot be trusted. His tongue drips honey, but his heart holds poison.",
     "tags": [
-      "virtue",
-      "wisdom",
-      "nobility"
+      "trust",
+      "deceit",
+      "caution"
     ]
   },
   {
     "chapter": 7,
     "verse": 9,
-    "sanskrit": "स्वदेशे पूज्यते राजा विद्वान्सर्वत्र पूज्यते ।\nमूर्खः सर्वत्र निन्द्यते सर्वत्र गुणवान्स्मृतः ॥",
-    "translation": "A king is honored in his country, a scholar everywhere. A fool is condemned everywhere; the virtuous are respected everywhere.",
+    "sanskrit": "एकः सुपुत्रो धर्मज्ञो ललाते दीपकः स्मृतः । यस्य नास्ति तु पुत्रोऽपि तस्य लोकौ न विद्यते ॥",
+    "translation": "One righteous son is like a lamp on the forehead. He who has no son is said to miss both worlds.",
     "tags": [
-      "wisdom",
-      "reputation",
-      "virtue"
+      "sons",
+      "legacy",
+      "dharma"
     ]
   },
   {
     "chapter": 7,
     "verse": 10,
-    "sanskrit": "न भोगे सुखमस्त्यत्र न चैव विषये रतिः ।\nन च मित्रेषु विश्वासः कलौ चण्डालसेविनाम् ॥",
-    "translation": "In this age of Kali, there is neither joy in pleasures, nor trust in friends. The world is filled with hypocrites.",
+    "sanskrit": "मूर्खः शिष्यः शठं भार्यां द्रष्टव्यं दूरतो भृशम् । दुष्टं राजानमित्रं च दूरतोऽपि विवर्जयेत् ॥",
+    "translation": "Avoid from afar a foolish student, deceitful wife, evil king, and a false friend.",
     "tags": [
-      "kali yuga",
-      "trust",
-      "pleasure"
-    ]
-  },
-  {
-    "chapter": 7,
-    "verse": 11,
-    "sanskrit": "नम्रत्वेनैव लभ्यन्ते गुणाः सर्वे तपोऽन्विताः ।\nन तु दम्भेन लभ्यन्ते जलस्य स्थैर्यमेधसा ॥",
-    "translation": "All virtues are attained through humility and austerity, not by show. Even water finds stability with wisdom.",
-    "tags": [
-      "humility",
-      "virtue",
-      "austerity"
-    ]
-  },
-  {
-    "chapter": 7,
-    "verse": 12,
-    "sanskrit": "यः शत्रुं च मित्रं च नैव तिष्ठति नित्यशः ।\nस देवो वा मृषा सत्त्वं नृणां चेतसि वर्तते ॥",
-    "translation": "He who is neither a friend nor an enemy always — is divine, or else simply remains neutral in the minds of men.",
-    "tags": [
-      "neutrality",
-      "divinity",
+      "caution",
+      "wisdom",
       "relationships"
     ]
   },
   {
     "chapter": 7,
-    "verse": 13,
-    "sanskrit": "कः सन्तोषसमो मित्रं कः प्रियं चानुशीलनात् ।\nकः कामः कालमाश्रित्य कः क्रोधो मानवो यथा ॥",
-    "translation": "What equals contentment as a friend? What matches affection from practice? What passion remains eternal? What anger does not harm?",
+    "verse": 11,
+    "sanskrit": "त्यजेदेकं कुलस्यार्थे ग्रामस्यार्थे कुलं त्यजेत् ।\nग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत् ॥",
+    "translation": "Sacrifice one person for the family, the family for the village, the village for the nation, and the world for the soul.",
     "tags": [
-      "contentment",
-      "emotion",
-      "virtue"
+      "sacrifice",
+      "ethics",
+      "wisdom"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 12,
+    "sanskrit": "दुर्जनं नैव विश्वसेत्सुपुत्रं गर्भिणीं तथा ।\nकदा दुःखं समाविश्येन्न ज्ञातं लोकवृत्तकम् ॥",
+    "translation": "Never trust a wicked person, a son too early, or even a pregnant woman—for fate is ever-changing.",
+    "tags": [
+      "caution",
+      "trust",
+      "unpredictability"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 13,
+    "sanskrit": "धनानि भूमौ पशवश्च गोष्ठे\nभार्या गृहे स्वजनाः स्वेषु कार्येषु ।\nदेहे च शास्त्रं परलोकमार्गे\nधर्मः सहायः खलु धर्मकामिन् ॥",
+    "translation": "Wealth helps on earth, cattle in fields, wife at home, relatives in times of need, scriptures within the body, and dharma on the path to liberation.",
+    "tags": [
+      "support",
+      "dharma",
+      "roles"
     ]
   },
   {
     "chapter": 7,
     "verse": 14,
-    "sanskrit": "अन्यायोपार्जितं वित्तं दशवर्षाणि तिष्ठति ।\nप्राप्ते चैकादशे वर्षे समूलं तद्विनश्यति ॥",
-    "translation": "Wealth earned through injustice lasts ten years; in the eleventh, it is destroyed completely with roots.",
+    "sanskrit": "नात्यन्तं सरलं विद्यात्सारल्यम् दुःखहेतुकम् ।\nछिद्यन्ते सरला दर्भाः कुजनाः परिहृष्यति ॥",
+    "translation": "Don’t be overly straightforward—too much simplicity invites suffering. Straight grass is cut down first and pleases the wicked.",
     "tags": [
-      "wealth",
-      "injustice",
-      "karma"
+      "prudence",
+      "simplicity",
+      "caution"
     ]
   },
   {
     "chapter": 7,
     "verse": 15,
-    "sanskrit": "शैले शैले न माणिक्यं मौक्तिकं न गजे गजे ।\nसाधवो न हि सर्वत्र चन्दनं न वने वने ॥",
-    "translation": "Rubies aren’t found in every mountain, pearls not in every elephant, saints aren’t found everywhere — nor sandalwood in every forest.",
+    "sanskrit": "नित्यं श्रोत्रं विचिन्त्यं नारी चित्तं च केनचित् ।\nदैवं राज्ञः चापि लोके सुदुर्ज्ञेयमिति स्थितम् ॥",
+    "translation": "A woman's mind, divine will, and a king's actions are hard to understand—so say the wise.",
     "tags": [
-      "rarity",
+      "mystery",
+      "wisdom",
+      "caution"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 16,
+    "sanskrit": "नित्यं कोपेन दुष्टं च नैवैव कुरुते हितम् ।\nअपायकारी शत्रुं च न हि धर्मपरायणम् ॥",
+    "translation": "One who is constantly angry and harmful can never bring benefit or be committed to righteousness.",
+    "tags": [
+      "anger",
+      "harm",
+      "dharma"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 17,
+    "sanskrit": "न हि धर्मोपसंहारं दुर्बलः सहते नरः ।\nबलवान्धर्मपालश्च लभते सुखमुत्तमम् ॥",
+    "translation": "A weak man cannot uphold dharma. Only the strong protector of dharma attains true happiness.",
+    "tags": [
+      "dharma",
+      "strength",
+      "protection"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 18,
+    "sanskrit": "सत्यं क्रुद्धस्य वाक्यं स्यान्न स्त्रीणां न च बालिशम् ।\nराज्ञश्च सन्निधौ यत्तद्वेदितव्यं न चापरम् ॥",
+    "translation": "The words of the angry, women, fools, or in royal court should not be taken at face value.",
+    "tags": [
+      "discernment",
+      "speech",
+      "caution"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 19,
+    "sanskrit": "स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ।\nधर्मादेव हि जीवामः न धर्मं परित्यजेत् ॥",
+    "translation": "Better to die in one’s own dharma than follow another’s. Life itself depends on dharma—never forsake it.",
+    "tags": [
+      "dharma",
+      "ethics",
+      "steadfastness"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 20,
+    "sanskrit": "धर्मेणैव हि सम्पत्तिः धर्मेणैव च सौख्यतः ।\nधर्मेणैव भवेन्मोक्षः स धर्मः पावनः परः ॥",
+    "translation": "All prosperity, happiness, and liberation arise from dharma—it is the purest and highest path.",
+    "tags": [
+      "dharma",
+      "liberation",
+      "happiness"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 21,
+    "sanskrit": "धर्मेणैव हि राज्यं च धर्मेणैव च पाल्यते ।\nधर्मेणैव कृतं सर्वं तस्मात्सर्वं समाचरेत् ॥",
+    "translation": "A kingdom runs and is maintained by dharma. Everything should be done through it—therefore, follow it always.",
+    "tags": [
+      "governance",
+      "dharma",
+      "action"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 22,
+    "sanskrit": "एवं नीतिसारं पुण्यं यः पठेत्स श्रद्धया सदा ।\nस प्राप्नोति परां सिद्धिं पुण्यं यशस्यमीप्सितम् ॥",
+    "translation": "He who reads this sacred Neeti with faith gains success, virtue, and desired fame.",
+    "tags": [
+      "success",
+      "faith",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 23,
+    "sanskrit": "धर्मादधिगतं सर्वं धर्मेणैव विनश्यति ।\nधर्मेणैव च लभ्यं च धर्मः पातालनायकः ॥",
+    "translation": "All gained through dharma is lost without it. Even underworld kings must follow dharma to gain anything lasting.",
+    "tags": [
+      "dharma",
+      "loss",
+      "law"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 24,
+    "sanskrit": "धर्मेणैव हि सिद्धिः स्यात्प्राप्तिर्मोक्षस्य साधनम् ।\nधर्मो हि सर्वधर्माणां मूलं ज्ञेयं सनातनम् ॥",
+    "translation": "Success and liberation are achieved through dharma. Dharma is the eternal root of all principles.",
+    "tags": [
+      "dharma",
+      "liberation",
+      "principles"
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse": 25,
+    "sanskrit": "एते नीतिसारस्य श्लोकाः पुण्यविवर्धनाः ।\nपठन्ति ये नराः शुद्धा ते गच्छन्ति परां गतिम् ॥",
+    "translation": "These verses of Neeti increase virtue. Those pure-hearted who recite them attain the supreme path.",
+    "tags": [
       "virtue",
-      "wisdom"
+      "recitation",
+      "liberation"
     ]
   }
 ]
