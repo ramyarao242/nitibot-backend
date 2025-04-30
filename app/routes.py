@@ -1,5 +1,10 @@
 import random
 from app.verse_loader import verses
+from flask import Blueprint, jsonify
+import os
+import json
+
+routes = Blueprint('routes', __name__)
 
 def get_random_verse():
     return random.choice(verses)
