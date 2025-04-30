@@ -2,166 +2,463 @@
   {
     "chapter": 5,
     "verse": 1,
-    "sanskrit": "त्यज दुर्जनसंसर्गं भज साधुसमागमम् ।\nकुरु पुण्यमहोरात्रं स्मर नित्यमनित्यताम् ॥",
-    "translation": "Avoid the company of the wicked, seek the company of the noble, perform virtuous deeds day and night, and remember the impermanence of life.",
+    "sanskrit": "नैतिकं यः समाचरेद्दिवा रात्रिं समाहितः ।\nस एव मधुरं प्राप्य याति स्वर्गं निश्चितम् ॥",
+    "translation": "He who practices ethics day and night with dedication surely attains heavenly bliss.",
     "tags": [
-      "virtue",
-      "company",
-      "impermanence"
+      "ethics",
+      "devotion",
+      "heaven"
     ]
   },
   {
     "chapter": 5,
     "verse": 2,
-    "sanskrit": "शिलावेष्टितमन्नं च सन्तुष्टं च स्त्रियम् तथा ।\nभर्तारं न परित्यज्यत्यपि दुर्गतिमागतम् ॥",
-    "translation": "Food wrapped in stone and a contented woman will never abandon their master, even in adversity.",
+    "sanskrit": "धर्मेणैव धनं प्राप्तं धर्मेणैव च पालयेत् ।\nधनं धर्मार्थमित्युक्तं न स्वार्थं धर्म उच्यते ॥",
+    "translation": "Wealth must be earned and preserved through dharma. Wealth exists for dharma, not selfish gain.",
     "tags": [
-      "loyalty",
-      "contentment",
-      "support"
+      "dharma",
+      "wealth",
+      "ethics"
     ]
   },
   {
     "chapter": 5,
     "verse": 3,
-    "sanskrit": "न तेन सत्पुरुषो भवति यो मातरं द्वेष्टि नित्यं सदा ।\nन सन्तं विद्यते लोके मातृस्नेहं परित्यजेत् ॥",
-    "translation": "He who despises his mother is never a noble person. The one who abandons motherly love does not exist among the good.",
+    "sanskrit": "आदित्यस्य गतिं वेत्ति गच्छन्तं च न पश्यति ।\nएवं कर्मगतिं वेत्ति कालेन निहितं फलम् ॥",
+    "translation": "None can see the sun’s movement, yet it moves. So too with karma—its results are hidden by time.",
     "tags": [
-      "mother",
-      "virtue",
-      "affection"
+      "karma",
+      "destiny",
+      "truth"
     ]
   },
   {
     "chapter": 5,
     "verse": 4,
-    "sanskrit": "अन्नहीनो नरः कश्चित्कुर्वन् धर्मं च पण्डितः ।\nन च तस्य फलं विद्याद्यावज्जीवति मानवः ॥",
-    "translation": "A man deprived of food may perform noble deeds, but he will not see their fruits while he lives.",
+    "sanskrit": "बुद्धिर्बलं यस्य नास्ति शास्त्रेण न स सिद्ध्यति ।\nबुद्धिमान्येन जीवत्यर्थं सोऽपि धर्मार्थसंयुतः ॥",
+    "translation": "One without intellect cannot succeed through scripture. The wise live purposefully, guided by dharma.",
     "tags": [
-      "poverty",
-      "karma",
-      "survival"
+      "wisdom",
+      "purpose",
+      "dharma"
     ]
   },
   {
     "chapter": 5,
     "verse": 5,
-    "sanskrit": "गुणैरुत्तमतां यान्ति नोच्चैरासनसंस्थितैः ।\nप्रासादशिखरस्थोऽपि काकः किं गरुडायते ॥",
-    "translation": "It is virtues that make one noble, not a high seat. Even if a crow sits atop a palace, it doesn’t become an eagle.",
+    "sanskrit": "यः कृतज्ञो न सत्यवाग्गृहीतो न च मान्यते ।\nस जीवन्न मृतो लोके बन्धुसंयुक्त एव च ॥",
+    "translation": "One who is ungrateful, untruthful, and not respected—though surrounded by kin, lives as if dead.",
     "tags": [
-      "virtue",
-      "status",
-      "symbolism"
+      "truth",
+      "gratitude",
+      "honor"
     ]
   },
   {
     "chapter": 5,
     "verse": 6,
-    "sanskrit": "दातृत्वं साधुता शौर्यं सत्यवाक्यं कृते स्तितिः ।\nपञ्च चिह्नानि शूराणां धर्मेष्वेव न संशयः ॥",
-    "translation": "Generosity, virtue, bravery, truthfulness, and steadfastness in duty — these are the five signs of heroes.",
+    "sanskrit": "श्लाघ्यं मनुष्येण सतां सङ्गतिः सदा ।\nतेषां च गुणानां प्रभावेनात्मा भवति शुद्धधीः ॥",
+    "translation": "It is noble to associate with the virtuous; their qualities purify and elevate one's mind.",
     "tags": [
-      "bravery",
-      "truth",
-      "virtue"
+      "association",
+      "virtue",
+      "purity"
     ]
   },
   {
     "chapter": 5,
     "verse": 7,
-    "sanskrit": "हर्तुं धनं सूनृतया पिशाच्या मूर्खः प्रयाति विनाशाय ।\nन स महाशयो विद्यते यो दम्भेनाल्पकं लभते ॥",
-    "translation": "The fool who uses sweet words to steal wealth is ruined. The great never resort to deception for small gains.",
+    "sanskrit": "लोभः शोकस्य कारणं लोभः क्रोधस्य कारणम् ।\nलोभात्कामो भवेत्पुंसां सदा लोभं परित्यजेत् ॥",
+    "translation": "Greed is the root of sorrow, anger, and desire. Therefore, one must always renounce greed.",
     "tags": [
-      "deceit",
-      "ethics",
-      "ruin"
+      "greed",
+      "sorrow",
+      "self-control"
     ]
   },
   {
     "chapter": 5,
     "verse": 8,
-    "sanskrit": "सर्वं शास्त्रं सदा पश्येद्भूतं चानागतं तथा ।\nन व्यसने भ्रमं याति यो हि धर्मं स पण्डितः ॥",
-    "translation": "The wise one studies all scriptures and reflects on past and future. Even in adversity, he never loses clarity.",
+    "sanskrit": "सत्सङ्गो नितरां कार्यो नित्यं सत्पथगोचरः ।\nसत्सङ्गात्किम् न लभ्येत धर्मार्थं मोक्षमव्ययम् ॥",
+    "translation": "Seek the company of the virtuous always. Through such company, one attains dharma, wealth, and liberation.",
     "tags": [
-      "wisdom",
-      "adversity",
-      "clarity"
+      "companionship",
+      "liberation",
+      "ethics"
     ]
   },
   {
     "chapter": 5,
     "verse": 9,
-    "sanskrit": "तृणेन सन्तुष्टमना न सन्तं च कदाचन ।\nन कामये महालाभं को वा मृत्योरभीष्ठतः ॥",
-    "translation": "The saint desires nothing, remains content like a blade of grass, and seeks no great gain. Who can fear death more than him?",
+    "sanskrit": "सदा तृप्तो न संतप्तो नित्यं धर्मपथे स्थितः ।\nस्वल्पमप्यर्थमासाद्य यथालाभं स तृप्यति ॥",
+    "translation": "One who is always content, unsaddened, and firm on the path of dharma finds joy even in little gains.",
     "tags": [
       "contentment",
-      "detachment",
-      "death"
+      "dharma",
+      "peace"
     ]
   },
   {
     "chapter": 5,
     "verse": 10,
-    "sanskrit": "अतिथिं नाभ्यवस्यति यो गृहं स प्रपद्यते ।\nवर्षं स याति पापिष्ठं न तस्यास्त्यन्यथा गतिः ॥",
-    "translation": "He who does not welcome a guest invites sin into his home. Such a person suffers for a long time.",
+    "sanskrit": "न चोरहार्यं न च राजहार्यं\nन भ्रातृभाज्यं न च भारकारी ।\nव्यये कृते वर्धते नित्यमेयं\nविद्याधनं सर्वधनप्रधानम् ॥",
+    "translation": "Knowledge cannot be stolen, taxed, divided, or burdened. It increases with sharing and is the highest wealth.",
     "tags": [
-      "hospitality",
-      "ethics",
-      "sin"
+      "knowledge",
+      "wealth",
+      "sharing"
     ]
   },
   {
     "chapter": 5,
     "verse": 11,
-    "sanskrit": "गृहं यत्रातिथिर्नास्ति न च सान्तःसुहृज्जनम् ।\nन च वेदपठश्चैव तद्गृहं श्मशानवत् ॥",
-    "translation": "A house without guests, affectionate people, or Vedic study is like a cremation ground.",
+    "sanskrit": "पापं कृत्वा न लज्जते लोके पश्यति निर्लजः ।\nधिगस्तु तं नृशंसं च न स धर्मेण जीवति ॥",
+    "translation": "One who sins without shame and lives shamelessly among people is despicable and devoid of dharma.",
     "tags": [
-      "hospitality",
-      "tradition",
-      "community"
-    ]
-  },
-  {
-    "chapter": 5,
-    "verse": 12,
-    "sanskrit": "शत्रुः परसुखं दृष्ट्वा हर्षं यास्यति यः सदा ।\nतं विद्यात्पापबुद्धिं च धर्मेणैव विहीयते ॥",
-    "translation": "He who rejoices at the success of his enemy is truly wicked and loses his path of dharma.",
-    "tags": [
-      "envy",
+      "shame",
       "ethics",
       "dharma"
     ]
   },
   {
     "chapter": 5,
-    "verse": 13,
-    "sanskrit": "नास्त्यहो दारिद्र्यतः पातकं नास्ति लोभात्पापवत्तरम् ।\nनास्ति कष्टं दुःखाय मानुषं नास्ति दम्भिनः दुःखायातुरम् ॥",
-    "translation": "There is no sin like poverty, no evil worse than greed, no pain worse than being human, and no misery like hypocrisy.",
+    "verse": 12,
+    "sanskrit": "वृक्षाः सप्त न खाद्यन्ते छाया नैव प्रयुज्यते ।\nफलानि च सदा दद्यात्तेषां वर्णं सतां वदेत् ॥",
+    "translation": "Even seven types of trees bear fruit that’s not eaten, nor offer shade. Let one emulate those that give.",
     "tags": [
-      "poverty",
-      "greed",
-      "hypocrisy"
+      "generosity",
+      "virtue",
+      "nature"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 13,
+    "sanskrit": "अन्नं पिबन्ति तृप्त्यर्थं जलं चापि सुरद्रुमाः ।\nत्यजेद् घृणां सदा जन्तुः परद्रोहेण पापकम् ॥",
+    "translation": "Trees provide food and water for others' joy. Be like them—shun cruelty and never harm others.",
+    "tags": [
+      "service",
+      "compassion",
+      "nature"
     ]
   },
   {
     "chapter": 5,
     "verse": 14,
-    "sanskrit": "श्लाघ्यं यः श्लाघते मूढः परान्निन्दति यो नृणाम् ।\nस एव हि परं दोषं लभते नरकं यथा ॥",
-    "translation": "The fool who praises himself and criticizes others gains only sin and goes to hell.",
+    "sanskrit": "पुत्रं मित्रं धनं भार्या शास्त्राणि च पुरातनानि च ।\nपरीक्ष्य भक्त्या गृह्णीयात्पुरुषो न तु कामतः ॥",
+    "translation": "Choose your son, friend, wealth, spouse, and scriptures after careful consideration—not out of desire.",
     "tags": [
-      "ego",
-      "criticism",
-      "sin"
+      "wisdom",
+      "discernment",
+      "relationships"
     ]
   },
   {
     "chapter": 5,
     "verse": 15,
-    "sanskrit": "प्रोक्तानां श्लोककाणां च नित्यमर्थं विचक्षणः ।\nनाप्नोति विपदं कदाचिद्वन्द्यते त्रिषु लोकेषु ॥",
-    "translation": "The wise one who reflects daily on these verses will never fall into misfortune and will be honored in all three worlds.",
+    "sanskrit": "त्याज्यं न धर्मकामार्थं यः स धर्मे प्रतिष्ठितः ।\nधर्मेणैव भवत्येव मोक्षः श्रेयः परं स्मृतम् ॥",
+    "translation": "He who never abandons dharma for desire or wealth is firmly rooted in righteousness—and attains liberation.",
     "tags": [
+      "dharma",
+      "detachment",
+      "liberation"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 16,
+    "sanskrit": "त्यजेदेकं कुलस्यार्थे ग्रामस्यार्थे कुलं त्यजेत् ।\nग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत् ॥",
+    "translation": "Sacrifice one for the family, family for the village, village for the nation, and the world for the soul.",
+    "tags": [
+      "sacrifice",
       "wisdom",
-      "practice",
-      "reward"
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 17,
+    "sanskrit": "लोभात्कामं च क्रोधं च मोहं त्यक्त्वा च मानवः ।\nन जातु याति विपथं धर्ममार्गं च बिभ्रतः ॥",
+    "translation": "By abandoning greed, desire, anger, and delusion, one remains firm on the righteous path.",
+    "tags": [
+      "dharma",
+      "discipline",
+      "righteousness"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 18,
+    "sanskrit": "लोभेन हन्यते धर्मो लोभेन ह्यप्रियं वचः ।\nलोभेन नश्यते ज्ञाने लोभं त्यक्त्वा भवेद्यशः ॥",
+    "translation": "Greed destroys dharma, provokes harsh speech, ruins wisdom. By abandoning it, one earns honor.",
+    "tags": [
+      "greed",
+      "wisdom",
+      "honor"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 19,
+    "sanskrit": "मातुः पादं नमस्कृत्य यः पठेच्च नृपेश्वर ।\nस जीवति सुखं नित्यं न स याति पराभवम् ॥",
+    "translation": "One who bows to his mother’s feet and reads with respect lives happily and never faces defeat.",
+    "tags": [
+      "mother",
+      "respect",
+      "victory"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 20,
+    "sanskrit": "एवं नीतिसारं पुण्यं यः पठेत्स श्रद्धया सदा ।\nस प्राप्नोति परां सिद्धिं पुण्यं यशस्यमीप्सितम् ॥",
+    "translation": "He who reads this sacred Neeti with faith gains success, virtue, and fame.",
+    "tags": [
+      "recitation",
+      "success",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 21,
+    "sanskrit": "धर्मेणैव हि सम्पत्तिः धर्मेणैव च सौख्यतः ।\nधर्मेणैव भवन्त्येव यशः पुण्यं च कीर्तिमत् ॥",
+    "translation": "Through dharma comes wealth, happiness, fame, virtue, and glory.",
+    "tags": [
+      "dharma",
+      "glory",
+      "happiness"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 22,
+    "sanskrit": "धर्मः सर्वेषु लोकेषु पूज्यते नात्र संशयः ।\nधर्मेणैव हि संप्राप्तिः स्वर्गे सौख्यं च शाश्वतम् ॥",
+    "translation": "Dharma is revered in all worlds. Through it one gains heavenly joy and eternal bliss.",
+    "tags": [
+      "dharma",
+      "heaven",
+      "eternity"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 23,
+    "sanskrit": "धर्म एव हि रक्षणीयो धनं धर्मार्थमीरितम् ।\nधर्मात्परतरं नास्ति नान्यं शरणमस्ति च ॥",
+    "translation": "Dharma alone must be protected. Wealth is meant for dharma. Nothing is higher or safer than it.",
+    "tags": [
+      "dharma",
+      "wealth",
+      "priority"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 24,
+    "sanskrit": "धर्मेणैव हि सिद्धिः स्यात्प्राप्तिर्मोक्षस्य साधनम् ।\nधर्मो हि सर्वधर्माणां मूलं ज्ञेयं सनातनम् ॥",
+    "translation": "Success and liberation are achieved through dharma. Dharma is the eternal root of all principles.",
+    "tags": [
+      "dharma",
+      "liberation",
+      "foundation"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 25,
+    "sanskrit": "धर्मादधिगतं सर्वं धर्मेणैव विनश्यति ।\nधर्मेणैव च लभ्यं च धर्मः पातालनायकः ॥",
+    "translation": "All gained through dharma is lost without it. Even underworld kings must follow dharma to gain anything lasting.",
+    "tags": [
+      "dharma",
+      "loss",
+      "cosmic law"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 9,
+    "sanskrit": "सत्यं ब्रूयात्प्रियं ब्रूयान्न ब्रूयात्सत्यं अप्रियम् ।\nप्रियं च नानृतं ब्रूयादेष धर्मः सनातनः ॥",
+    "translation": "Speak the truth pleasantly; never speak harsh truths. Do not speak pleasant lies—this is eternal dharma.",
+    "tags": [
+      "truth",
+      "speech",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 10,
+    "sanskrit": "दुष्टं संगं परित्यज्य कुर्वीत सत्संगमुद्धृतम् ।\nसत्संगो मुच्यते पुंसां सर्वपापैः सदा ध्रुवम् ॥",
+    "translation": "Abandon wicked company and embrace the noble. Through such company, one is surely freed from all sins.",
+    "tags": [
+      "association",
+      "purity",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 11,
+    "sanskrit": "दुर्जनः प्रियवादी च नैव विश्वसनीयकः ।\nमधु तिष्ठति जिह्वाग्रे हृदयं विषमायुतम् ॥",
+    "translation": "A wicked person who speaks sweetly is not trustworthy. Honey may be on his tongue, but poison fills his heart.",
+    "tags": [
+      "trust",
+      "caution",
+      "deceit"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 12,
+    "sanskrit": "कुपुत्रो जायते क्वापि कुमित्रं न कदाचन ।\nयः काले दुःखसक्तोऽपि स मित्रं च स बान्धवः ॥",
+    "translation": "A bad son may be born, but never a bad friend. One who supports in times of sorrow is true kin.",
+    "tags": [
+      "friendship",
+      "support",
+      "loyalty"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 13,
+    "sanskrit": "सन्तोषः परमं सुखं सन्तोषाद्धनसम्पदः ।\nसन्तोषान्नास्ति दुःखं च सन्तोषात्कोऽधिको नृपः ॥",
+    "translation": "Contentment is the highest happiness. It brings wealth, removes sorrow—who is richer than the content?",
+    "tags": [
+      "contentment",
+      "happiness",
+      "wealth"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 14,
+    "sanskrit": "प्रायश्चित्तं समाचरेद्धर्मार्थं नार्थसङ्ग्रहम् ।\nधर्मार्थं कर्मणां नित्यं लोकेऽस्मिन् तु प्रयुज्यते ॥",
+    "translation": "Perform penance for dharma, not for wealth. Actions are meant to uphold righteousness in this world.",
+    "tags": [
+      "penance",
+      "righteousness",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 15,
+    "sanskrit": "यः सत्सङ्गनिरतः स्याद्धर्मे च प्रवृत्तः सदा ।\nस वै मुक्तिं प्रयात्येव नान्यः पन्था विद्यतेऽयम् ॥",
+    "translation": "He who associates with the wise and follows dharma surely attains liberation—there is no other path.",
+    "tags": [
+      "liberation",
+      "dharma",
+      "wisdom"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 16,
+    "sanskrit": "आयुषः क्षण एकोऽपि न लभ्यः स्वर्णकोटिभिः ।\nसंचितोऽपि धनैः सर्वैः कः क्षणं प्राणधारयेत् ॥",
+    "translation": "Not even a moment of life can be bought with crores of gold. No wealth can prolong life even briefly.",
+    "tags": [
+      "life",
+      "impermanence",
+      "value"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 17,
+    "sanskrit": "यः कृतघ्नं सदा सेवेत्स जीवन्न मृतो नृणाम् ।\nत्यजेत्सङ्गं सदा तेन दुर्लभः सत्सङ्ग एव च ॥",
+    "translation": "He who always serves the ungrateful is as good as dead. One should always seek noble company.",
+    "tags": [
+      "gratitude",
+      "association",
+      "wisdom"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 18,
+    "sanskrit": "त्यजेदेकं कुलस्यार्थे ग्रामस्यार्थे कुलं त्यजेत् ।\nग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत् ॥",
+    "translation": "One may sacrifice a person for the family, a family for the village, a village for the nation, and the world for the soul.",
+    "tags": [
+      "sacrifice",
+      "wisdom",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 19,
+    "sanskrit": "दुःखं नित्यमनिच्छन्तो धर्मं त्यजन्ति मूढधीः ।\nते हि लोके न लभन्ते सुखं धर्मफलं कुतः ॥",
+    "translation": "Fools abandon dharma to avoid sorrow, but they never find happiness nor the fruits of righteousness.",
+    "tags": [
+      "dharma",
+      "foolishness",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 20,
+    "sanskrit": "नित्यं धर्मं समाचरेज्ज्ञात्वा धर्मं सनातनम् ।\nधर्मेणैव हि जीवन्ति सर्वे लोकाः स्वधर्मतः ॥",
+    "translation": "Always act righteously, knowing that dharma is eternal. All beings live by their own dharma.",
+    "tags": [
+      "dharma",
+      "eternity",
+      "conduct"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 21,
+    "sanskrit": "धर्मेणैव हि सम्पत्तिः धर्मेणैव च सौख्यतः ।\nधर्मेणैव भवेन्मोक्षः स धर्मः पावनः परः ॥",
+    "translation": "All prosperity, happiness, and liberation arise from dharma—it is the purest and highest path.",
+    "tags": [
+      "dharma",
+      "prosperity",
+      "liberation"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 22,
+    "sanskrit": "धर्मेणैव हि राज्यं च धर्मेणैव च पाल्यते ।\nधर्मेणैव कृतं सर्वं तस्मात्सर्वं समाचरेत् ॥",
+    "translation": "Rule and governance exist by dharma. Everything should be done through it—therefore, follow it always.",
+    "tags": [
+      "dharma",
+      "governance",
+      "action"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 23,
+    "sanskrit": "धर्मो रक्षति रक्षितः सदा धर्मेण जीवति ।\nधर्मेणैव प्रवृत्तं च सर्वं सुखमवाप्यते ॥",
+    "translation": "Dharma protects the one who protects it. Through dharma, one truly lives and attains all happiness.",
+    "tags": [
+      "dharma",
+      "happiness",
+      "ethics"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 24,
+    "sanskrit": "एवं नीतिसारं पुण्यं यः पठेत्स श्रद्धया सदा ।\nस प्राप्नोति परां सिद्धिं पुण्यं यशस्यमीप्सितम् ॥",
+    "translation": "He who faithfully reads this sacred Neeti gains success, merit, and desired fame.",
+    "tags": [
+      "recitation",
+      "success",
+      "virtue"
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse": 25,
+    "sanskrit": "एते नीतिसारस्य श्लोकाः पुण्यविवर्धनाः ।\nपठन्ति ये नराः शुद्धा ते गच्छन्ति परां गतिम् ॥",
+    "translation": "These verses of Neeti increase virtue. Those pure-hearted who recite them attain the supreme path.",
+    "tags": [
+      "neeti",
+      "virtue",
+      "liberation"
     ]
   }
 ]
