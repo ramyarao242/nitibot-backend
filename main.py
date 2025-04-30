@@ -1,7 +1,8 @@
 from fastapi import FastAPI, Query
-from app.routes import get_random_verse, ask_chanakya
+from app.routes import get_random_verse, ask_chanakya,router
 
 app = FastAPI()
+app.include_router(router)
 
 @app.get("/")
 def read_root():
@@ -14,12 +15,3 @@ def verse_random():
 @app.get("/verse/ask")
 def verse_ask(question: str = Query(..., description="Your question to Chanakya")):
     return ask_chanakya(question)
-
-from flask import Flask
-from app.routes import routes
-
-app = Flask(__name__)
-app.register_blueprint(routes)
-
-if __name__ == '__main__':
-    app.run(debug=True)
