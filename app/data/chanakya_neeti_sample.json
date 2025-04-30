@@ -2,11 +2,47 @@
   {
     "chapter": 1,
     "verse": 1,
-    "sanskrit": "प्रणम्य शिरसा विष्णुं त्रैलोक्याधिपतिं प्रभुम् ।",
-    "translation": "Humbly bowing down before the almighty Lord Sri Vishnu...",
+    "sanskrit": "प्रणम्य शिरसा विष्णुं त्रैलोक्याधिपतिं प्रभुम् ।\nनानाशास्त्रोद्धृतं वक्ष्ये नीतिśास्त्रमनुत्तमम् ॥",
+    "translation": "Bowing my head to Lord Vishnu, the ruler of the three worlds, I recite the supreme rules of conduct drawn from various scriptures.",
     "tags": [
       "introduction",
+      "devotion",
+      "wisdom"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 2,
+    "sanskrit": "त्यजेदेकं कुलस्यार्थे ग्रामस्यार्थे कुलं त्यजेत् ।\nग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत् ॥",
+    "translation": "One should sacrifice an individual for the sake of the family, the family for the sake of the village, the village for the sake of the country, and even the entire earth for the sake of the soul.",
+    "tags": [
+      "sacrifice",
+      "ethics",
+      "priority",
       "dharma"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 3,
+    "sanskrit": "सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम् ।\nप्रियं च नानृतं ब्रूयात् एष धर्मः सनातनः ॥",
+    "translation": "Speak the truth, speak it pleasantly, and do not speak unpleasant truths. Never speak lies, even if they are pleasing — this is the eternal dharma.",
+    "tags": [
+      "truth",
+      "speech",
+      "dharma"
+    ]
+  },
+  {
+    "chapter": 1,
+    "verse": 4,
+    "sanskrit": "न चोरराज्यं न च दुष्टसेवा न चान्नदाता व्यसनेषु मित्रम् ।\nन चाल्पविद्येः न च वृद्धसेवा चाणक्यं त्यजति बुद्धिमन्तः ॥",
+    "translation": "The wise abandon the rule of thieves, evil company, friends who abandon in danger, an unlearned guide, and the service of the old or ineffective.",
+    "tags": [
+      "friendship",
+      "guidance",
+      "wisdom",
+      "behavior"
     ]
   }
 ]
