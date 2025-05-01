@@ -28,7 +28,7 @@ def ask_chanakya(question: str):
 
     return random.choice(matched) if matched else random.choice(verses)
 
-   @router.get("/merge")
+@router.get("/merge")
 def merge_verses():
     directory = "./app/data"
     all_verses = []
