@@ -28,13 +28,13 @@ def ask_chanakya(question: str):
 
     return random.choice(matched) if matched else random.choice(verses)
 
-@router.get("/merge")
+   @router.get("/merge")
 def merge_verses():
     directory = "./data"
     all_verses = []
 
     for chapter_num in range(1, 18):
-        filename = f"Chapter{chapter_num}"
+        filename = f"Chapter{chapter_num}"  # <-- no .json here
         filepath = os.path.join(directory, filename)
         if os.path.exists(filepath):
             with open(filepath, "r", encoding="utf-8") as f:
@@ -43,12 +43,12 @@ def merge_verses():
         else:
             raise HTTPException(status_code=404, detail=f"{filename} not found")
 
-    output_path = os.path.join(directory, "allChapters.json")
-    with open(output_path, "w", encoding="utf-8") as f:
+    output_file = os.path.join(directory, "chanakya_neeti_all_chapters.json")
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_verses, f, ensure_ascii=False, indent=2)
 
     return {
         "message": "Merged successfully",
         "total_verses": len(all_verses),
-        "output_file": output_path
-    }
+        "output_file": output_file
+    } 
