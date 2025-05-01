@@ -34,7 +34,7 @@ def merge_verses():
     all_verses = []
 
     for chapter_num in range(1, 18):
-        filename = f"Chapter{chapter_num}.json"
+        filename = f"Chapter{chapter_num}"
         filepath = os.path.join(directory, filename)
         if os.path.exists(filepath):
             with open(filepath, "r", encoding="utf-8") as f:
@@ -43,7 +43,7 @@ def merge_verses():
         else:
             raise HTTPException(status_code=404, detail=f"{filename} not found")
 
-    output_path = os.path.join(directory, "Chapter1.json")
+    output_path = os.path.join(directory, "Chapter1")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_verses, f, ensure_ascii=False, indent=2)
 
