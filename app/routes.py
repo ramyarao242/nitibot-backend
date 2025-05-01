@@ -30,7 +30,7 @@ def ask_chanakya(question: str):
 
    @router.get("/merge")
 def merge_verses():
-    directory = "./data"
+    directory = "./app/data"
     all_verses = []
 
     for chapter_num in range(1, 18):
