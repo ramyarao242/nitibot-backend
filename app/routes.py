@@ -43,7 +43,7 @@ def merge_verses():
         else:
             raise HTTPException(status_code=404, detail=f"{filename} not found")
 
-    output_path = os.path.join(directory, "Chapter1")
+    output_path = os.path.join(directory, "allChapters.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(all_verses, f, ensure_ascii=False, indent=2)
 
