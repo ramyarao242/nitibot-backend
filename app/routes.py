@@ -27,7 +27,11 @@ def ask_chanakya(question: str):
                     matched.append(v)
 
     return random.choice(matched) if matched else random.choice(verses)
-
+@router.get("/download")
+def download_merged_file():
+    file_path = "./app/data/chanakya_neeti_all_chapters.json"
+    return FileResponse(path=file_path, filename="chanakya_neeti_all_chapters.json", media_type="application/json")
+    
 @router.get("/merge")
 def merge_verses():
     directory = "./app/data"
