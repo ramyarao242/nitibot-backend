@@ -16,6 +16,9 @@ def verse_random():
 def verse_ask(question: str = Query(..., description="Your question to Chanakya")):
     return ask_chanakya(question)
 
+import os
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=10000)
+    port = int(os.environ.get("PORT", 8020))  # this line is CRUCIAL
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
