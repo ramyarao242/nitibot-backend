@@ -28,11 +28,6 @@ def ask_chanakya(question: str):
 
     return random.choice(matched) if matched else random.choice(verses)
     
-@router.get("/download")
-def download_merged_file():
-    file_path = os.path.abspath("app/data/chanakya_neeti_all_chapters.json")
-    return FileResponse(path=file_path, filename="chanakya_neeti_all_chapters.json", media_type="application/json")
-    
 @router.get("/merge")
 def merge_verses():
     directory = "./app/data"
@@ -57,3 +52,18 @@ def merge_verses():
         "total_verses": len(all_verses),
         "output_file": output_file
     } 
+
+from fastapi.responses import FileResponse
+import os
+
+@router.get("/download")
+def download_merged_file():
+    file_path = os.path.abspath("app/data/chanakya_neeti_all_chapters.json")
+    if os.path.exists(file_path):
+        return FileResponse(
+            path=file_path,
+            filename="chanakya_neeti_all_chapters.json",
+            media_type="application/json"
+        )
+    else:
+        raise HTTPException(status_code=404, detail="File not found")p
