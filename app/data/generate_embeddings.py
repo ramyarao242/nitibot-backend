@@ -57,6 +57,5 @@ def main():
 		json.dump(data, f, ensure_ascii=False, indent=2)
 
 	print(f"Added embeddings for {len(verses_list)} verses. Saved results to '{output_path}'.")
-
-	if __name__ == "__main__":
-		main()
+if __name__ == "__main__":
+	main
