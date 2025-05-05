@@ -9,25 +9,26 @@ router = APIRouter()
 @router.get("/verse/random")
 def get_random_verse():
     return random.choice(verses)
-
-@router.get("/ask")
-def ask_chanakya(question: str):
-    keywords = {
-        "trust": ["trust", "betray", "friend", "loyal"],
-        "strategy": ["plan", "secret", "deceive", "succeed"],
-        "wisdom": ["wise", "intelligence", "fool"]
-    }
-    q = question.lower()
-    matched = []
-
-    for terms in keywords.values():
-        if any(term in q for term in terms):
-            for v in verses:
-                if any(term in v["translation"].lower() for term in terms):
-                    matched.append(v)
-
-    return random.choice(matched) if matched else random.choice(verses)
     
+@router.get("/ask")
+def ask_chanakya(question: str = Query(...)):
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    q_embedding = model.encode(question)
+
+    best_score = -1
+    best_verse = None
+
+    for verse in verses:
+        sim = cosine_similarity([q_embedding], [verse["embedding"]])[0][0]
+        if sim > best_score:
+            best_score = sim
+            best_verse = verse
+
+    return {
+        "match_score": round(best_score, 4),
+        "verse": best_verse
+    }
+
 @router.get("/merge")
 def merge_verses():
     directory = "./app/data"
