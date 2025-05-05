@@ -1,7 +1,7 @@
 import random
 import os
 import json
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from app.verse_loader import verses
 
 router = APIRouter()
