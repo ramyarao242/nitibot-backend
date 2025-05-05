@@ -13,6 +13,26 @@ router = APIRouter()
 def get_random_verse():
     return random.choice(verses)
     
+@router.get("/ask-top3")
+def ask_top3(question: str = Query(..., description="Ask your question")):
+    question_embedding = model.encode([question])
+    
+    similarities = []
+    for verse in verses:
+        if "embedding" in verse:
+            verse_embedding = np.array(verse["embedding"]).reshape(1, -1)
+            score = cosine_similarity(question_embedding, verse_embedding)[0][0]
+            similarities.append((score, verse))
+    
+    top3 = sorted(similarities, key=lambda x: x[0], reverse=True)[:3]
+    response = [
+        {
+            "match_score": round(score, 4),
+            "verse": verse
+        } for score, verse in top3
+    ]
+    return response    
+    
 @router.get("/ask")
 def ask_chanakya(question: str = Query(...)):
     model = SentenceTransformer("all-MiniLM-L6-v2")
