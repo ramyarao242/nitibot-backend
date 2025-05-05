@@ -2,6 +2,9 @@ import random
 import os
 import json
 from fastapi import APIRouter, HTTPException, Query
+import random
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 from app.verse_loader import verses
 
 router = APIRouter()
