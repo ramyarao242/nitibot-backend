@@ -35,7 +35,8 @@ def ask_top3(question: str = Query(..., description="Ask your question")):
     
 @router.get("/ask")
 def ask_chanakya(question: str = Query(...)):
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    #model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
     q_embedding = model.encode(question)
 
     best_score = -1

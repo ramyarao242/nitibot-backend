@@ -10,3 +10,5 @@ lxml
 openai
 sentence-transformers
 scikit-learn
+numpy
+#making changes

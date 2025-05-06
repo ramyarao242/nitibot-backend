@@ -22,7 +22,8 @@ def main():
 		data = json.load(f)
 
 	# Initialize the sentence-transformer model (all-MiniLM-L6-v2)
-	model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+	#model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+	model = SentenceTransformer("sentence-transformers/multi-qa-mpnet-base-dot-v1")
 	print("model downloaded successfully")
 
 	# Prepare a list of verse entries regardless of the JSON structure (flat list or chapters)
