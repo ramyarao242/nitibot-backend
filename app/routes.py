@@ -15,6 +15,7 @@ def get_random_verse():
     
 @router.get("/ask-top3")
 def ask_top3(question: str = Query(..., description="Ask your question")):
+    model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
     question_embedding = model.encode([question])
     
     similarities = []
