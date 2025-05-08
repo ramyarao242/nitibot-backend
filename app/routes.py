@@ -6,6 +6,7 @@ import random
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from app.verse_loader import verses
+import numpy as np
 
 router = APIRouter()
 
@@ -13,8 +14,8 @@ router = APIRouter()
 def get_random_verse():
     return random.choice(verses)
     
-@router.get("/ask-top3")
-def ask_top3(question: str = Query(..., description="Ask your question")):
+@router.get("/ask-top4")
+def ask_top4(question: str = Query(..., description="Ask your question")):
     model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
     question_embedding = model.encode([question])
     
@@ -25,11 +26,14 @@ def ask_top3(question: str = Query(..., description="Ask your question")):
             score = cosine_similarity(question_embedding, verse_embedding)[0][0]
             similarities.append((score, verse))
     
-    top3 = sorted(similarities, key=lambda x: x[0], reverse=True)[:3]
+    top3 = sorted(similarities, key=lambda x: x[0], reverse=True)[:4]
     response = [
         {
             "match_score": round(score, 4),
-            "verse": verse
+            "chapter": verse.get("chapter"),
+            "verse": verse.get("verse"),
+            "sanskrit": verse.get("sanskrit"),
+            "translation": verse.get("translation"),
         } for score, verse in top3
     ]
     return response    
