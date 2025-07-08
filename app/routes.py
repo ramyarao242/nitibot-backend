@@ -7,6 +7,13 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from app.verse_loader import verses
 import numpy as np
+import os
+import openai
+from dotenv import load_dotenv
+
+
+load_dotenv()  # Load environment variables from .env fil
+openai.api_key = os.getenv("OPENAI_API_KEY");
 
 router = APIRouter()
 
@@ -36,10 +43,37 @@ def ask_top4(question: str = Query(..., description="Ask your question")):
             "translation": verse.get("translation"),
         } for score, verse in top3
     ]
-    return response    
-    
-@router.get("/ask")
+    return response   
+
+@router.get("/ask-chanakya", methods=["GET"])
 def ask_chanakya(question: str = Query(...)):
+    question = request.query_params.get("question", "")
+    if not question:
+        raise HTTPException(status_code=400, detail="Question parameter is required")
+    prompt=( f"You are a wise sage named Chanakya. "
+             f"Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom."
+             f"Question: {question}"
+             f"Verses:\n"+"\n".join(verses))
+    # Call OpenAI API to get the response
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a wise sage named Chanakya, answering with sharp Neeti wisdom"},
+                {"role": "user", "content": prompt}
+            ], 
+            temperature=0.7,
+        )
+
+        answer = response.choices[0].message.content
+        return jsonify({"answer": answer})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
+
+    return response
+
+@router.get("/ask")
+def ask_model(question: str = Query(...)):
     #model = SentenceTransformer("all-MiniLM-L6-v2")
     model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
     q_embedding = model.encode(question)
