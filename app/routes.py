@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from app.verse_loader import verses
 import numpy as np
 import os
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 
 
@@ -55,7 +55,8 @@ def ask_chanakya(question: str = Query(...)):
              f"Verses:\n"+"\n".join(verses))
     # Call OpenAI API to get the response
     try:
-        response = openai.ChatCompletion.create(
+        client = OpenAI()
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a wise sage named Chanakya, answering with sharp Neeti wisdom"},
@@ -142,7 +143,8 @@ def daily_challenge():
              "Scenario: ...\nTakeaway: **...**\n\n")
     # Call OpenAI API to get the response
     try:
-        response = openai.ChatCompletion.create(
+        client = OpenAI()
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a wise sage Chanakya, Share daily stratergic dilemmas with sharp insights"},
