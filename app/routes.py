@@ -10,8 +10,7 @@ import numpy as np
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
-
-
+from fastapi.responses import JSONResponse
 load_dotenv()  # Load environment variables from .env fil
 #openai.api_key = os.getenv("OPENAI_API_KEY");
 
@@ -66,7 +65,7 @@ def ask_chanakya(question: str = Query(...)):
         )
 
         answer = response.choices[0].message.content
-        return jsonify({"answer": answer})
+        return JSONResponse(content={"answer": answer})
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
 
@@ -154,6 +153,6 @@ def daily_challenge():
         )
 
         content = response.choices[0].message.content
-        return jsonify({"challenge": content})
+        return JSONResponse(content={"challenge": content})
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
