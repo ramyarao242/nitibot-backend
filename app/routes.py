@@ -45,9 +45,8 @@ def ask_top4(question: str = Query(..., description="Ask your question")):
     ]
     return response   
 
-@router.get("/ask-chanakya", methods=["GET"])
+@router.get("/ask-chanakya")
 def ask_chanakya(question: str = Query(...)):
-    question = request.query_params.get("question", "")
     if not question:
         raise HTTPException(status_code=400, detail="Question parameter is required")
     prompt=( f"You are a wise sage named Chanakya. "
