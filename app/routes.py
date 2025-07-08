@@ -133,13 +133,25 @@ def download_merged_file():
     
 @router.get("/daily-challenge")
 def daily_challenge():
-    
-    prompt=( "create a daily stratergic dilemma inspired by Chanakya Neeti."
-             "Keep it under 100 words. Include:\n"
-             "1. A quick situation(moral or political dilemma)\n"
-             "2. A one line takeawayin bold(Like A Neeti Sutra)\n"
-             "FORMAT:\n\n"
-             "Scenario: ...\nTakeaway: **...**\n\n")
+    prompt = (
+    "Generate a strategic dilemma inspired by Chanakya Neeti. "
+    "Respond in the following JSON format only:\n\n"
+    "{\n"
+    "  \"scenario\": \"<short moral or political dilemma>\",\n"
+    "  \"options\": [\n"
+    "    {\"text\": \"<Option A>\", \"score\": <1–10>},\n"
+    "    {\"text\": \"<Option B>\", \"score\": <1–10>},\n"
+    "    {\"text\": \"<Option C>\", \"score\": <1–10>},\n"
+    "    {\"text\": \"<Option D>\", \"score\": <1–10>}\n"
+    "  ],\n"
+    "  \"takeaway\": \"<A strategic lesson related to the best option>\"\n"
+    "}\n\n"
+    "Ensure:\n"
+    "- Options reflect realistic moral or strategic choices\n"
+    "- Only one option should clearly have the highest score (like 9 or 10)\n"
+    "- Scores reflect the wisdom behind each option\n"
+    "- The takeaway must be aligned with the best option"
+)
     # Call OpenAI API to get the response
     try:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
