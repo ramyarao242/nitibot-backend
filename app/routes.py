@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()  # Load environment variables from .env fil
-openai.api_key = os.getenv("OPENAI_API_KEY");
+#openai.api_key = os.getenv("OPENAI_API_KEY");
 
 router = APIRouter()
 
@@ -55,7 +55,7 @@ def ask_chanakya(question: str = Query(...)):
              f"Verses:\n"+"\n".join(verses))
     # Call OpenAI API to get the response
     try:
-        client = OpenAI()
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -143,7 +143,7 @@ def daily_challenge():
              "Scenario: ...\nTakeaway: **...**\n\n")
     # Call OpenAI API to get the response
     try:
-        client = OpenAI()
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
