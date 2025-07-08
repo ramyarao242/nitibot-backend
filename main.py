@@ -12,7 +12,7 @@ def read_root():
 def verse_random():
     return get_random_verse()
 
-@app.get("/verse/ask")
+@app.get("/verse/ask-chanakya")
 def verse_ask(question: str = Query(..., description="Your question to Chanakya")):
     return ask_chanakya(question)
 

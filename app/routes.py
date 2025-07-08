@@ -130,3 +130,28 @@ def download_merged_file():
         )
     else:
         raise HTTPException(status_code=404, detail="File not found")
+    
+@router.get("/daily-challenge")
+def daily_challenge():
+    
+    prompt=( "create a daily stratergic dilemma inspired by Chanakya Neeti."
+             "Keep it under 100 words. Include:\n"
+             "1. A quick situation(moral or political dilemma)\n"
+             "2. A one line takeawayin bold(Like A Neeti Sutra)\n"
+             "FORMAT:\n\n"
+             "Scenario: ...\nTakeaway: **...**\n\n")
+    # Call OpenAI API to get the response
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a wise sage Chanakya, Share daily stratergic dilemmas with sharp insights"},
+                {"role": "user", "content": prompt}
+            ], 
+            temperature=0.7,
+        )
+
+        content = response.choices[0].message.content
+        return jsonify({"challenge": content})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
