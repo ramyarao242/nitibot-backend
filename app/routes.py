@@ -19,7 +19,11 @@ router = APIRouter()
 @router.get("/verse/random")
 def get_random_verse():
     return random.choice(verses)
-    
+
+@router.get("/verse/all-verses")
+def get_all_verses():
+    return verses
+
 @router.get("/ask-top4")
 def ask_top4(question: str = Query(..., description="Ask your question")):
     model = SentenceTransformer("multi-qa-mpnet-base-dot-v1")
