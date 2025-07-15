@@ -11,6 +11,8 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
+import datetime
+from flask import jsonify
 load_dotenv()  # Load environment variables from .env fil
 #openai.api_key = os.getenv("OPENAI_API_KEY");
 
@@ -23,6 +25,20 @@ def get_random_verse():
 @router.get("/verse/all-verses")
 def get_all_verses():
     return verses
+
+@router.get("/neeti-of-the-day")
+def get_neeti_of_the_day():
+    today = datetime.date.today().toordinal()
+    index = today % len(verses)
+    verse = verses[index]
+    return JSONResponse({
+        "date": str(datetime.date.today()),
+        "chapter": verse.get("chapter"),
+        "verse": verse.get("verse"),
+        "sanskrit": verse.get("sanskrit"),
+        "translation": verse.get("translation"),
+        "tag": verse.get("tags"),
+    })
 
 @router.get("/ask-top4")
 def ask_top4(question: str = Query(..., description="Ask your question")):
