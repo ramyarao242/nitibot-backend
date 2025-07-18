@@ -74,7 +74,8 @@ def ask_chanakya(question: str = Query(...)):
              f"Instructions:\n"
              f"- Start your response with a relevant Chankya Neeti verse in sanskrit and english translation of it, give chapter number and verse number\n"
              f"- then give interpretation of the verse in modern context\n"
-             f"- Keep the tone sharp and stratergic like Chanakya\n")
+             f"- Keep the tone sharp and stratergic like Chanakya\n"
+             f"- format the response as a JSON object with keys 'chapter number' , 'verse number' , 'sanskrit', 'translation', and 'interpretation'\n")
              #f"Verses:\n"+"\n".join(verses))
     # Call OpenAI API to get the response
     try:
