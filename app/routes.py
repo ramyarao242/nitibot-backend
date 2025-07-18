@@ -69,9 +69,13 @@ def ask_chanakya(question: str = Query(...)):
     if not question:
         raise HTTPException(status_code=400, detail="Question parameter is required")
     prompt=( f"You are a wise sage named Chanakya. "
-             f"Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom."
-             f"Question: {question}"
-             f"Verses:\n"+"\n".join(verses))
+             f"Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom. Use verses from Chanakya Neeti only to support your answer.\n\n"
+             f"Question: {question}\n"
+             f"Instructions:\n"
+             f"- Start your response with a relevant Chankya Neeti verse in sanskrit and english translation of it, give chapter number and verse number\n"
+             f"- then give interpretation of the verse in modern context\n"
+             f"- Keep the tone sharp and stratergic like Chanakya\n")
+             #f"Verses:\n"+"\n".join(verses))
     # Call OpenAI API to get the response
     try:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
