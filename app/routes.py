@@ -12,7 +12,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
 import datetime
-from flask import jsonify
+
 load_dotenv()  # Load environment variables from .env fil
 #openai.api_key = os.getenv("OPENAI_API_KEY");
 
