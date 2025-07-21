@@ -193,3 +193,33 @@ def daily_challenge():
         return JSONResponse(content={"challenge": content})
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
+    
+
+@router.post("/notify")
+def notify_user(notification: str):
+    # Here you would implement the logic to notify the user
+    async def notify_me(request: Request):
+        try:
+            # Simulate notification logic
+            data = await request.json()
+            email = data.get("email")
+            feature = data.get("feature")
+            if not email or "@" not in email or not feature:
+                raise HTTPException(status_code=400, detail="Valid email and feature are required")
+            # Read existing data
+            if(os.path.exists("notifications.json")):
+                with open("notifications.json", "r") as f:
+                    existing = json.load(f)
+            else:
+                existing = []
+            
+            if email in existing:
+                return JSONResponse(status_code=200, content={"message": "Already notified"})
+            
+            # Add and save new notification
+            existing.append({"email": email, "feature": feature})
+            with open("notifications.json", "w") as f:
+                json.dump(existing, f, indent=2)
+            return JSONResponse(status_code=200, content={"message": "User notified", "email": email, "feature": feature})
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Error notifying user: {str(e)}")
