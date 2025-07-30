@@ -68,23 +68,16 @@ def ask_top4(question: str = Query(..., description="Ask your question")):
 def ask_chanakya(question: str = Query(...)):
     if not question:
         raise HTTPException(status_code=400, detail="Question parameter is required")
-    prompt=( f"You are a wise sage named Chanakya. "
-             f"Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom. Use verses from Chanakya Neeti only to support your answer.\n\n"
-             f"Question: {question}\n"
-             f"Instructions:\n"
-             f"- Start your response with a relevant Chankya Neeti verse in sanskrit and english translation of it, give chapter number and verse number\n"
-             f"- then give interpretation of the verse in modern context\n"
-             f"- Keep the tone sharp and stratergic like Chanakya\n"
-             f"- format the response as a JSON object with keys 'chapter number' , 'verse number' , 'sanskrit', 'translation', and 'interpretation'\n")
-             #f"Verses:\n"+"\n".join(verses))
+    prompt=( f"You are a wise sage named Chanakya.Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom. Use verses from Chanakya Neeti only to support your answer in this exact JSON format.{{\"chapter number\": <chapter number>, \"verse number\": <verse number>, \"sanskrit\": \"<sanskrit verse>\", \"translation\": \"<english translation>\", \"interpretation\": \"<modern day interpretation of the verse in context of users version>\"}}\n\n"
+    )
     # Call OpenAI API to get the response
     try:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",
             messages=[
-                {"role": "system", "content": "You are a wise sage named Chanakya, answering with sharp Neeti wisdom"},
-                {"role": "user", "content": prompt}
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": question}
             ], 
             temperature=0.7,
         )
