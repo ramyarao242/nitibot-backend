@@ -79,7 +79,7 @@ def ask_chanakya(question: str = Query(...)):
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": question}
             ], 
-            temperature=0.7,
+            temperature=0.85,
         )
 
         answer = response.choices[0].message.content
