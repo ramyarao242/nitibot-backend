@@ -68,8 +68,8 @@ def ask_top4(question: str = Query(..., description="Ask your question")):
 def ask_chanakya(question: str = Query(...)):
     if not question:
         raise HTTPException(status_code=400, detail="Question parameter is required")
-    prompt=( f"You are a wise sage named Chanakya.Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom. Use verses from Chanakya Neeti only to support your answer in this exact JSON format.{{\"chapter number\": <chapter number>, \"verse number\": <verse number>, \"sanskrit\": \"<sanskrit verse>\", \"translation\": \"<english translation>\", \"interpretation\": \"<modern day interpretation of the verse in context of users version>\"}}\n\n"
-    )
+    prompt="You are a wise sage named Chanakya.Answer the question based on the wisdom of Chanakya Neeti with stratergic wisdom. Use verses from Chanakya Neeti only to support your answer in this exact JSON format.{{\"chapter number\": <chapter number>, \"verse number\": <verse number>, \"sanskrit\": \"<sanskrit verse>\", \"translation\": \"<english translation>\", \"interpretation\": \"<modern day interpretation of the verse in context of users version>\"}} Only respond with this JSON, Do not add any explanation or extra text"
+    
     # Call OpenAI API to get the response
     try:
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
