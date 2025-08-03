@@ -216,3 +216,18 @@ def notify_user(notification: str):
             return JSONResponse(status_code=200, content={"message": "User notified", "email": email, "feature": feature})
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Error notifying user: {str(e)}")
+
+
+
+
+@router.get("/notify/count")
+def notify_count():
+    try:
+        if os.path.exists("notifications.json"):
+            with open("notifications.json", "r") as f:
+                data = json.load(f)
+            return {"count": len(data), "records": data}
+        else:
+            return {"count": 0, "records": []}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
