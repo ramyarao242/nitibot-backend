@@ -12,6 +12,11 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
 import datetime
+from pydantic import BaseModel, EmailStr
+import gspread
+from google.oauth2.service_account import Credentials
+
+
 
 load_dotenv()  # Load environment variables from .env fil
 #openai.api_key = os.getenv("OPENAI_API_KEY");
@@ -188,46 +193,85 @@ def daily_challenge():
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
     
 
-@router.post("/notify")
-def notify_user(notification: str):
-    # Here you would implement the logic to notify the user
-    async def notify_me(request: Request):
-        try:
-            # Simulate notification logic
-            data = await request.json()
-            email = data.get("email")
-            feature = data.get("feature")
-            if not email or "@" not in email or not feature:
-                raise HTTPException(status_code=400, detail="Valid email and feature are required")
-            # Read existing data
-            if(os.path.exists("notifications.json")):
-                with open("notifications.json", "r") as f:
-                    existing = json.load(f)
-            else:
-                existing = []
-            
-            if email in existing:
-                return JSONResponse(status_code=200, content={"message": "Already notified"})
-            
-            # Add and save new notification
-            existing.append({"email": email, "feature": feature})
-            with open("notifications.json", "w") as f:
-                json.dump(existing, f, indent=2)
-            return JSONResponse(status_code=200, content={"message": "User notified", "email": email, "feature": feature})
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Error notifying user: {str(e)}")
+app = FastAPI(title="NeetiBot Notify API")
 
+# ---- Google Sheets client ----
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SHEET_ID = os.getenv("SHEET_ID")
+SHEET_TAB = os.getenv("SHEET_TAB", "Notify")
+GOOGLE_SA_JSON = os.getenv("GOOGLE_SA_JSON")
+if not SHEET_ID or not GOOGLE_SA_JSON:
+    raise RuntimeError("Missing env vars: SHEET_ID and/or GOOGLE_SA_JSON")
 
+sa_info = json.loads(GOOGLE_SA_JSON)
+creds = Credentials.from_service_account_info(sa_info, scopes=SCOPES)
+gc = gspread.authorize(creds)
 
-
-@router.get("/notify/count")
-def notify_count():
+def get_ws():
+    sh = gc.open_by_key(SHEET_ID)
     try:
-        if os.path.exists("notifications.json"):
-            with open("notifications.json", "r") as f:
-                data = json.load(f)
-            return {"count": len(data), "records": data}
-        else:
-            return {"count": 0, "records": []}
+        return sh.worksheet(SHEET_TAB)
+    except gspread.exceptions.WorksheetNotFound:
+        ws = sh.add_worksheet(title=SHEET_TAB, rows=1000, cols=10)
+        ws.append_row(["email", "feature", "created_at_utc", "ip"])
+        return ws
+
+ws = get_ws()
+
+# Ensure header exists
+try:
+    header = [h.strip().lower() for h in ws.row_values(1)]
+    if not header or "email" not in header:
+        ws.insert_row(["email", "feature"], 1)
+except Exception:
+    pass
+
+class NotifyPayload(BaseModel):
+    email: EmailStr
+    feature: str
+
+def email_exists(email: str) -> bool:
+    try:
+        col = [e.strip().lower() for e in ws.col_values(1)[1:]]  # skip header
+        return email.strip().lower() in col
+    except Exception:
+        return False
+
+def append_row(email: str, feature: str, ip: Optional[str]):
+    ts = datetime.utcnow().isoformat(timespec="seconds") + "Z"
+    ws.append_row([email, feature, ts, ip or ""])
+
+@app.post("/notify")
+async def notify(payload: NotifyPayload, request: Request):
+    feature = (payload.feature or "").strip()
+    if not feature:
+        raise HTTPException(status_code=400, detail="Feature is required")
+    ip = request.headers.get("x-forwarded-for", request.client.host if request.client else "")
+    try:
+        if email_exists(payload.email):
+            return JSONResponse(status_code=200, content={"message": "Already on the list."})
+        append_row(payload.email, feature, ip)
+        return JSONResponse(status_code=201, content={"message": "Added to notify list."})
+    except gspread.exceptions.APIError as e:
+        # Most common cause: Sheet not shared with service account
+        raise HTTPException(status_code=500, detail=f"Sheets API error: {e}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {e}")
+
+# Optional: quick count/debug
+ADMIN_TOKEN = os.getenv("ADMIN_TOKEN", "")
+@app.get("/notify/debug")
+def notify_debug(token: str):
+    if not ADMIN_TOKEN or token != ADMIN_TOKEN:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    try:
+        count = len(ws.get_all_values()) - 1  # minus header
+        last10 = ws.get_all_records()[-10:]
+        return {"tab": SHEET_TAB, "count": max(count, 0), "tail": last10}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/healthz")
+def health():
+    return {"ok": True}
+      
