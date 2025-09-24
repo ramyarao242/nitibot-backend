@@ -197,7 +197,7 @@ app = FastAPI(title="NeetiBot Notify API")
 
 # ---- Google Sheets client ----
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SHEET_ID = os.getenv("SHEET_ID")
+SHEET_ID = os.getenv("1UIEGy_GwGHfrQMRyq8mpzQfNBgrKzGCECYYRHkmi-pc")
 SHEET_TAB = os.getenv("SHEET_TAB", "Notify")
 GOOGLE_SA_JSON = os.getenv("GOOGLE_SA_JSON")
 if not SHEET_ID or not GOOGLE_SA_JSON:
